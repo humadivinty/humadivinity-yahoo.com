@@ -1,0 +1,27 @@
+LIBRARY	VPRCtrl
+
+EXPORTS
+    ; Explicit exports can go here
+
+	;  初始化车牌自动识别仪
+	VPR_Init
+	VPR_InitEx
+	;  关闭车牌自动识别仪
+	VPR_Quit
+	;  车牌自动识别仪手动抓拍图象并进行识别
+	VPR_Capture
+	VPR_CaptureEx
+	;  取车牌自动识别仪识别结果
+	VPR_GetVehicleInfo
+	;  取车牌自动识别仪识别结果
+	VPR_GetVehicleInfoEx
+	VPR_GetVehicleInfoEx2
+	;  比较两副车牌号码字符串
+	VPR_ComparePlate
+	;  比较两副车牌图象
+	VPR_ComparePlateBin
+	;  检查牌照识别器状态
+	VPR_CheckStatus
+	;  二值化车牌转换为BMP图片
+	VPR_BinImage2BMP	
+	VPR_SyncTime

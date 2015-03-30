@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestVPRCtrl", "TestVPRCtrl\TestVPRCtrl.vcproj", "{01DBE9AB-B984-4C6F-BCB5-EA04BEF08B26}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4D6A1EB8-2503-4FAD-A4D7-6E03BBD652B3} = {4D6A1EB8-2503-4FAD-A4D7-6E03BBD652B3}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VPRCtrl", "..\VPRCtrl\VPRCtrl.vcproj", "{4D6A1EB8-2503-4FAD-A4D7-6E03BBD652B3}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{01DBE9AB-B984-4C6F-BCB5-EA04BEF08B26}.Debug.ActiveCfg = Debug|Win32
+		{01DBE9AB-B984-4C6F-BCB5-EA04BEF08B26}.Debug.Build.0 = Debug|Win32
+		{01DBE9AB-B984-4C6F-BCB5-EA04BEF08B26}.Release.ActiveCfg = Release|Win32
+		{01DBE9AB-B984-4C6F-BCB5-EA04BEF08B26}.Release.Build.0 = Release|Win32
+		{4D6A1EB8-2503-4FAD-A4D7-6E03BBD652B3}.Debug.ActiveCfg = Debug|Win32
+		{4D6A1EB8-2503-4FAD-A4D7-6E03BBD652B3}.Debug.Build.0 = Debug|Win32
+		{4D6A1EB8-2503-4FAD-A4D7-6E03BBD652B3}.Release.ActiveCfg = Release|Win32
+		{4D6A1EB8-2503-4FAD-A4D7-6E03BBD652B3}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
